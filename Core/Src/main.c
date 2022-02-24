@@ -22,6 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usbd_midi_if.h"
 
 /* USER CODE END Includes */
 
@@ -94,6 +95,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    MIDI_note_on(100, 127);
+    HAL_Delay(1000);
+    MIDI_note_off(100, 0);
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
