@@ -1,0 +1,8 @@
+core_cm4.h:1939:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+usbd_midi_if.c:72:15:MIDI_Init	16	static
+usbd_midi_if.c:86:15:MIDI_DeInit	16	static
+usbd_midi_if.c:101:15:MIDI_Send	24	static
+usbd_midi_if.c:119:15:MIDI_Receive	24	static
+usbd_midi_if.c:141:6:MIDI_note_on	24	static
+usbd_midi_if.c:152:6:MIDI_note_off	24	static
+usbd_midi_if.c:163:6:MIDI_cc_update	24	static
